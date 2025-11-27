@@ -9,7 +9,13 @@ button {
   background-color: orange;
   border-radius: 25px;
   border-width: 0px;
-  padding: 10px
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer; /* Added for better UX */
+}
+
+button:hover {
+  background-color: #ffbd4a; /* Added for a slight hover effect */
 }
 
 b {
@@ -19,7 +25,12 @@ b {
 .cont {
   border-width: 1px;
   border-color: white;
-  padding: 5px;
+  padding: 20px; /* Increased padding slightly for looks */
   border-style: solid;
   margin: auto;
+  max-width: 600px; /* Added so the box isn't too wide on big screens */
+}
+
+a {
+  text-decoration: none;
 }
